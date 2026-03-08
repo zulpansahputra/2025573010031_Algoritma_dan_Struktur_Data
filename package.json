@@ -1,0 +1,21 @@
+{
+  "name": "2025573010031_algoritma_dan_struktur_data",
+  "version": "1.0.0",
+  "description": "Nama : Zulfan Sahputra\r NIM : 2025573010031\r Kelas : TI.1CC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zulpansahputra/2025573010031_Algoritma_dan_Struktur_Data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zulpansahputra/2025573010031_Algoritma_dan_Struktur_Data/issues"
+  },
+  "homepage": "https://github.com/zulpansahputra/2025573010031_Algoritma_dan_Struktur_Data#readme"
+}
