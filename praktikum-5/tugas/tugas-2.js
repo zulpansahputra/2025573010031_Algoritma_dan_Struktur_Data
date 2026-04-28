@@ -1,8 +1,4 @@
-// ==========================================
-// TUGAS 2
-// ==========================================
-
-// 🔹 Fungsi-fungsi
+// Fungsi-fungsi
 const fn_O1 = (n) => n + 1; // O(1)
 
 const fn_On = (n) => {
@@ -29,7 +25,7 @@ const fn_On2 = (n) => {
 };
 
 // ==========================================
-// 🔹 Benchmark
+// Benchmark
 function benchmarkSemua(ukuranData) {
   for (let n of ukuranData) {
     console.log(`\n=== n = ${n} ===`);
@@ -59,11 +55,11 @@ function benchmarkSemua(ukuranData) {
 }
 
 // ==========================================
-// 🔹 RUN
+// RUN
 benchmarkSemua([100, 500, 1000, 5000, 10000]);
 
 // ==========================================
-// 🔹 OBSERVASI (penting buat nilai)
+// OBSERVASI (penting buat nilai)
 /*
 - O(1): waktu hampir tetap
 - O(n): naik linear

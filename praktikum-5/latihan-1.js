@@ -1,6 +1,4 @@
-// ==========================================
 // LATIHAN 1: IDENTIFIKASI KOMPLEKSITAS
-// ==========================================
 
 // Fungsi untuk menghitung waktu eksekusi
 function hitungKompleksitas(n, fn, nama) {

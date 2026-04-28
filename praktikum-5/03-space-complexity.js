@@ -36,9 +36,7 @@ function hitungUnik(arr) {
 const dataAcak = [1, 2, 3, 2, 1, 4, 5, 3, 6, 4, 7];
 console.log("Elemen unik:", hitungUnik(dataAcak)); // 7
 
-// ==========================================
 // LATIHAN 3: SPACE COMPLEXITY
-// ==========================================
 
 // 1. Fungsi Lambat (Nested Loop)
 // Big-O Time  : O(n²)

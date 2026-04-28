@@ -1,8 +1,4 @@
-// ==========================================
-// TUGAS 1
-// ==========================================
-
-// 🔹 Helper waktu
+// Helper waktu
 const ukur = (fn, ...args) => {
   const t0 = Date.now();
   const res = fn(...args);
@@ -10,7 +6,7 @@ const ukur = (fn, ...args) => {
 };
 
 // ==========================================
-// 🔹 A. INTERSECTION
+// A. INTERSECTION
 // O(n^2), O(1)
 const interN2 = (a, b) => {
   const r = [];
@@ -25,7 +21,7 @@ const interSet = (a, b) => {
 };
 
 // ==========================================
-// 🔹 B. ANAGRAM
+// B. ANAGRAM
 // O(n * k log k), O(n)
 const groupAnagram = (arr) => {
   const m = {};
@@ -37,7 +33,7 @@ const groupAnagram = (arr) => {
 };
 
 // ==========================================
-// 🔹 C. 2 angka = kuadrat angka lain
+// C. 2 angka = kuadrat angka lain
 
 // O(n^3), O(1)
 const tigaN3 = (a) => {
@@ -68,8 +64,7 @@ const tigaCepat = (a) => {
   return false;
 };
 
-// ==========================================
-// 🔹 TEST
+// TEST
 console.log("A:", ukur(interN2, [1, 2, 3], [2, 3, 4]));
 console.log("A cepat:", ukur(interSet, [1, 2, 3], [2, 3, 4]));
 
